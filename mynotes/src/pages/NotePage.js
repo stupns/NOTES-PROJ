@@ -10,7 +10,7 @@ function NotePage() {
   
 
   let [note, setNote] = useState(null)
-
+// eslint-disable-next-line
   useEffect(() => {
     getNote()
   }, [noteId])
